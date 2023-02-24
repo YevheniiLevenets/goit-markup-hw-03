@@ -329,7 +329,7 @@ p {
   letter-spacing: 0.04em;
   color: var(--btn-accent);
   background-color: var(--background-primary);
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--background-secondary);
 }
 .filter-btn:hover,
 .filter-btn:focus,
@@ -338,6 +338,7 @@ p {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   color: var(--text-white);
   background-color: var(--btn-primary);
+  border: 1px solid var(--btn-primary);
 }
 
 /* projects examples */
